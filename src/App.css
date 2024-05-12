@@ -1,0 +1,43 @@
+.main-div{
+  margin: auto;
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+  color: aliceblue;
+}
+.main-div > p {
+  font-size: 9rem;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > p {
+  font-size: 2rem;
+}
+.header> button{
+  padding: 1rem;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 5px;
+} 
+.charLength{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.charLength > h4{
+  font-size: 1.5rem;
+}
+
+.final-btn{
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 5px;
+}
